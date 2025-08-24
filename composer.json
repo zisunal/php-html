@@ -1,0 +1,24 @@
+{
+    "name": "zisunal/php-html",
+    "description": "A package to render html directly from php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zisunal\\PhpHtml\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MD Al Fariya Zisun",
+            "email": "alzisun1111@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "wongyip/html-beautify": "^1.1",
+        "cerdic/css-tidy": "^2.2",
+        "matthiasmullie/minify": "^1.3"
+    }
+}
