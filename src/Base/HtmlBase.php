@@ -22,7 +22,7 @@ class HtmlBase
     protected function escapeHtml(string|array $text): string|array
     {
         if (is_array($text)) {
-            return array_map(fn($item) => htmlspecialchars($item, ENT_QUOTES | ENT_HTML5), $text);
+            return array_map(fn($item) => is_array($item) ? $item : htmlspecialchars($item, ENT_QUOTES | ENT_HTML5), $text);
         }
         return htmlspecialchars($text, ENT_QUOTES | ENT_HTML5);
     }
