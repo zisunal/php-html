@@ -34,7 +34,7 @@ class Html extends HtmlBase implements HtmlInterface
         return $this;
     }
 
-    public function addCssFile(string $source, string|null $id, string|null $rel, string|null $integrity, bool|string $crossorigin = false): self
+    public function addCssFile(string $source, string|null $id = '', string|null $rel = '', string|null $integrity = '', bool|string $crossorigin = false): self
     {
         if (empty($id)) {
             $id = uniqid('css_');
@@ -92,7 +92,7 @@ class Html extends HtmlBase implements HtmlInterface
         return $this;
     }
 
-    public function addJsFile(string $source, string|null $id, string|null $integrity, string|null $type, bool $header = false, bool $crossorigin = false): self
+    public function addJsFile(string $source, string|null $id = '', string|null $integrity = '', string|null $type = '', bool $header = false, bool $crossorigin = false): self
     {
         if (empty($id)) {
             $id = uniqid('js_');
