@@ -1,5 +1,4 @@
-<video src="https://github.com/user-attachments/assets/738fa70c-f0b0-40cd-8812-6657a421a43c" autoplay loop muted playsinline width="100%" controls="false" poster="https://github.com/user-attachments/assets/a3f2c92c-7714-40cf-9cb5-5360b1432e98"></video>
-
+<img width="2752" height="1536" alt="php-html" src="https://github.com/user-attachments/assets/719e51b7-daa2-4e1f-bd86-66141ab7a05b" />
 ## 🈚 Want to customize your ![HTML](https://cdn.iconscout.com/icon/free/png-256/free-html-logo-icon-svg-png-download-3030115.png?f=webp&w=25) HTML output from 🐘 PHP?
 - Don't need continuous `?>`  and `<?php` anymore.
 - Use a more intuitive syntax for HTML generation.
